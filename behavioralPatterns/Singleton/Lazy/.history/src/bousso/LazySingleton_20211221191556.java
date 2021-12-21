@@ -9,7 +9,6 @@ import java.io.Serializable;
 public class LazySingleton implements Serializable{
 
     public static final long serialVersionUID = -2020L;
-
     private static LazySingleton ls;
 
     private LazySingleton(){}
