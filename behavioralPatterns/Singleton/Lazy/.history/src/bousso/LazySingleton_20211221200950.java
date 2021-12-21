@@ -20,12 +20,12 @@ public class LazySingleton implements Serializable{
 
     public static LazySingleton getInstance(){
         if (ls == null) 
-            ls = new LazySingleton();
+            ls new LazySingleton();
         return ls;
     }
     protected Object  readResolve(){
-        
-        return ls;
+        LazySingleton instance = getInstance();
+        return instance;
         
 
     }

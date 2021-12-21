@@ -19,15 +19,8 @@ public class LazySingleton implements Serializable{
     private LazySingleton(){}
 
     public static LazySingleton getInstance(){
-        if (ls == null) 
-            ls = new LazySingleton();
-        return ls;
-    }
-    protected Object  readResolve(){
-        
-        return ls;
-        
-
+        if (ls == null) return new LazySingleton();
+        else return ls;
     }
    
 

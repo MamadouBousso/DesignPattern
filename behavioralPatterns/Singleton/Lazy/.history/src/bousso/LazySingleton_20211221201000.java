@@ -24,8 +24,8 @@ public class LazySingleton implements Serializable{
         return ls;
     }
     protected Object  readResolve(){
-        
-        return ls;
+        LazySingleton instance = getInstance();
+        return instance;
         
 
     }
