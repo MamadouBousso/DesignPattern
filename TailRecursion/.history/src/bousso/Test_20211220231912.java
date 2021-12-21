@@ -19,11 +19,5 @@ public class Test {
         List<String> a = ApplyStream.transformStringFlat(melonLists);
         List<String> af = ApplyStream.transformStringFilter(a);
         System.out.println(af);
-        List<List<Integer>> integerLists = Arrays.asList(
-            Arrays.asList(2, 3),
-            Arrays.asList(5, -5, 10),
-            Arrays.asList(0, -10, 3));
-          System.out.println(ApplyStream.summingList(integerLists));
-          
-        }
+    }
 }

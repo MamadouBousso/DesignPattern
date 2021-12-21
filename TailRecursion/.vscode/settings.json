@@ -1,0 +1,12 @@
+{
+    "cSpell.words": [
+        "Bousso",
+        "Factorialtail",
+        "stre"
+    ],
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "/Users/mamadoubousso/Desktop/hamcrest-core-1.3.jar",
+        "/Users/mamadoubousso/Desktop/junit-4.13.2.jar"
+    ]
+}

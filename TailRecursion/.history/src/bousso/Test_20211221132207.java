@@ -24,6 +24,7 @@ public class Test {
             Arrays.asList(5, -5, 10),
             Arrays.asList(0, -10, 3));
           System.out.println(ApplyStream.summingList(integerLists));
-          
+          TailRecTest t = new TailRecTest();
+          t.testFactorialtail();
         }
 }
