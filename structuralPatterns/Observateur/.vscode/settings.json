@@ -1,0 +1,9 @@
+{
+    "java.project.sourcePaths": [
+        "src",
+        "srccours/bousso/demo"
+    ],
+    "cSpell.words": [
+        "Calculateur"
+    ]
+}
